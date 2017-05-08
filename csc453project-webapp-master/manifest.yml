@@ -1,0 +1,5 @@
+applications:
+- name: CSC453 Group 6 Web App
+  domain: mybluemix.net
+  host: g6webapp
+  memory: 128M

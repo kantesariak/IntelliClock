@@ -1,0 +1,25 @@
+{
+  "name": "csc453project-analyticsserver",
+  "version": "1.0.0",
+  "description": "The analytics server for our project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./server/server",
+    "dev": "nodemon ./server/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.ncsu.edu/djcary/csc453project-analyticsserver.git"
+  },
+  "author": "Daniel Cary and my group",
+  "license": "ISC",
+  "dependencies": {
+    "@google/maps": "^0.3.1",
+    "cfenv": "^1.0.4",
+    "dark-sky": "^1.0.10",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.2",
+    "mqtt": "^2.6.0",
+    "regression": "^1.4.0"
+  }
+}

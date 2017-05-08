@@ -1,0 +1,5 @@
+applications:
+- name: g6analyticsserver
+  domain: mybluemix.net
+  host: g6analyticsserver
+  memory: 128M
